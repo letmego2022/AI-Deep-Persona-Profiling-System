@@ -54,10 +54,6 @@ curl -X POST http://127.0.0.1:5001/start_analysis_session \
     // ... 更多引用
   ],
   "analysis_result": {
-    "source_data": {
-      "folder_name": "gitee.com",
-      "line_content": "User 'dev_master' pushed to branch main in project 'ruoyi-vue-pro'"
-    },
     "ai_analysis": {
       "核心摘要": "一位在Gitee上活跃的开发者，可能参与了基于若依框架的项目。",
       "推断画像": {
@@ -146,10 +142,6 @@ curl -X POST http://127.0.0.1:5001/analyze_next \
 {
   "success": true,
   "analysis_result": {
-    "source_data": {
-      "folder_name": "zhaopin.com",
-      "line_content": "{\"name\":\"张三\",\"phone\":\"13800138000\",\"position\":\"高级产品经理\",\"company\":\"某知名互联网公司\"}"
-    },
     "ai_analysis": {
       "核心摘要": "一位正在求职或更新简历的高级产品经理，明确关联到某公司。",
       "推断画像": {
